@@ -27,6 +27,7 @@ import android.widget.Toast;
 public class Inicio extends Activity{
 	ListView lstOpciones;
 	@Override
+	//comentario!!
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
