@@ -36,7 +36,7 @@ public class ListaDispositivos extends Activity{
     ArrayAdapter<ParseObject> adapter;
     ArrayList<String> mLista;
 
-    
+    // aœn no se visualiza nada D:
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 

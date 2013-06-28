@@ -46,8 +46,6 @@ public class Inicio extends Activity{
 		cerrarSesion.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View arg0) {
-				
-				
 				ParseUser.logOut();
 				ParseUser currentUser = ParseUser.getCurrentUser();
 				
@@ -83,9 +81,6 @@ public class Inicio extends Activity{
 				startActivity(regis);
 				
 			}});
-		
-		
-		
 	}
 	
 }

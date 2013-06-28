@@ -62,6 +62,7 @@ public class Dispositivos extends Activity {
 		                    EditDispositivo.setText(" ");
 		                    	
 		                }else{
+		                	// este es un cuadro de dialogo
 		                    AlertDialog.Builder builder = new AlertDialog.Builder(Dispositivos.this);
 		                    builder.setMessage("No se logro registrar dispositivo, intentelo de nuevo ")
 		                            .setTitle("Atenci�n!!")
