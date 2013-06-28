@@ -59,6 +59,7 @@ public class Inicio extends Activity{
 					startActivity(regis);
 					finish();
 				}else{
+					// error al cerrar sesion
 					Toast toast = Toast.makeText(getApplicationContext(), "No se logro cerrar sesion, intentelo de nuevo", Toast.LENGTH_SHORT);
 					toast.show();
 					
