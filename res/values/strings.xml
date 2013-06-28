@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">NAP</string>
+    <string name="action_settings">Settings</string>
+    <string name="userName">UserName</string>
+    <string name="textpassword">Password</string>
+    <string name="botonLogin">Entrar</string>
+    <string name="botonRegistrar">Registrar</string>
+    
+    <!-- activity_registrar_usuario -->
+    <string name="textNombre">UserName</string>
+    <string name="textEdad">Edad</string>
+    <string name="textEmail">e-mail</string>
+    <string name="sexMasculino">Masculino</string>
+    <string name="sexFemenino">Femenino</string>
+    <string name="textSexo">Sexo</string>
+    <string name="textPais">País</string>
+    <string name="contrasena">Password</string>
+    <string name="notaRegistrar">Regitro Usuarios</string>
+    <string name="enviar">Registrar</string>
+
+    
+    
+    <!-- Inicio -->
+    <string name="cerrarSesion">Cerra Sesion</string>
+    <string name="altaDispositivo">Agregar Dispositivo</string>
+    <string name="listaDisp">Ver dispositivos</string>
+    
+    <!-- activity_registrar_dispositivo -->
+    <string name="nombreDispositivo">Nombre del dispositivo</string>
+ 
+ 	<string name="notaDispositivo">Registrar Dispositivo</string>
+ 	<string name="registrar">Registrar</string>
+
+
+    
+</resources>

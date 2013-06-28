@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nube">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/notaResgistrar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="85dip"
+             android:layout_marginTop="20dip"
+             android:text="@string/notaRegistrar"
+             android:textColor="#0040FF"
+             android:textSize="15sp"
+             android:typeface="monospace" />
+
+         <EditText
+             android:id="@+id/nombre"
+             android:layout_width="222dp"
+             android:layout_height="40dp"
+        		android:textSize="15sp"
+             android:layout_margin="20dip"
+             android:ems="20"
+             android:hint="@string/textNombre"
+             android:maxLength="15"  />
+
+         <EditText
+             android:id="@+id/password"
+             android:layout_width="222dp"
+             android:layout_height="40dp"
+      	     android:textSize="15sp"
+             android:layout_margin="20dip"
+             android:ems="10"
+             android:hint="@string/contrasena"
+             android:inputType="textPassword" />
+
+         <EditText
+             android:id="@+id/edad"
+             android:layout_width="150dp"
+             android:layout_height="40dp"
+        	 android:textSize="15sp"
+        	 android:layout_margin="20dp"
+             android:ems="20"
+             android:hint="@string/textEdad"
+             android:maxLength="2"
+             android:inputType="phone"
+             android:digits="1234567890" />
+
+         <EditText
+             android:id="@+id/email"
+             android:layout_width="222dp"
+             android:layout_height="40dp"
+        	 android:textSize="15sp"
+             android:layout_margin="20dp"
+             android:ems="20"
+             android:hint="@string/textEmail"
+             android:inputType="textEmailAddress"
+             android:maxLength="30" />
+
+         <EditText
+             android:id="@+id/pais"
+             android:layout_width="222dp"
+             android:layout_height="40dp"
+     	     android:textSize="15sp"
+             android:layout_margin="20dp"
+             android:ems="20"
+             android:hint="@string/textPais"
+             android:maxLength="10" />
+
+       <!--    <RadioGroup
+             android:id="@+id/sexo"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="17dp" >
+
+             <RadioButton
+                 android:id="@+id/sexMasculino"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/sexMasculino" />
+
+             <RadioButton
+                 android:id="@+id/sexFemenino"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/sexFemenino" />
+         </RadioGroup>  -->
+         
+         <Button
+             android:id="@+id/buttonEnviar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="30dp"
+             android:layout_marginLeft="100dp"
+             android:layout_marginTop="30dp"
+             android:text="@string/enviar" />
+
+     </LinearLayout>
+
+</ScrollView>

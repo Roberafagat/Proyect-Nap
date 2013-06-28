@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nube" >
+    
+    <TextView
+             android:id="@+id/notaDispositivo"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="77dip"
+             android:layout_marginTop="20dip"
+             android:text="@string/notaDispositivo"
+             android:textColor="#0040FF"
+             android:textSize="15sp"
+             android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/nombreDispositivo"
+        android:layout_width="222dip"
+        android:layout_height="40dp"
+        
+        android:layout_alignRight="@+id/notaDispositivo"
+        android:layout_marginBottom="88dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="142dp"
+        android:onClick="enviarArd"
+        android:text="@string/registrar" />
+
+</RelativeLayout>
